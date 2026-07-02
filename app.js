@@ -4,8 +4,8 @@ const blogId = "MASUKKAN_BLOG_ID"; // ganti dengan blog ID kamu
 function initClient() {
   gapi.load("client:auth2", () => {
     gapi.client.init({
-      apiKey: "MASUKKAN_API_KEY",
-      clientId: "MASUKKAN_CLIENT_ID",
+      apiKey: "AIzaSyD8YuWjrxXGHWDl769vIDn-qPTzstyTBOU",
+      clientId: "706901790381-hmev49l5fnnok909e38lm5821ktt0gbr.apps.googleusercontent.com",
       discoveryDocs: ["https://www.googleapis.com/discovery/v1/apis/blogger/v3/rest"],
       scope: "https://www.googleapis.com/auth/blogger"
     }).then(() => {
