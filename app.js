@@ -1,5 +1,5 @@
 let token;
-const blogId = "MASUKKAN_BLOG_ID"; // ganti dengan blog ID kamu
+const blogId = "https://www.blogger.com/blog/posts/1464774564426248412"; // ganti dengan blog ID kamu
 
 function initClient() {
   gapi.load("client:auth2", () => {
